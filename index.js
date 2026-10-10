@@ -19,7 +19,6 @@
 //   DELETE /api/jobs/:id      Delete a job
 //   GET    /api/health         Health check
 
-require("dotenv").config();
 
 const express = require("express");
 const mongoose = require("mongoose");
